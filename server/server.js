@@ -12,7 +12,7 @@ const schema = require('./schema/schema');
 const app = express();
 
 // Replace with your mongoLab URI
-const MONGO_URI = '';
+const MONGO_URI = 'mongodb://nirumiantsev:antonnark@cluster0-shard-00-00.lq6o2.mongodb.net:27017,cluster0-shard-00-01.lq6o2.mongodb.net:27017,cluster0-shard-00-02.lq6o2.mongodb.net:27017/Cluster0?ssl=true&replicaSet=atlas-rwcji5-shard-0&authSource=admin&retryWrites=true&w=majority';
 
 // Mongoose's built in promise library is deprecated, replace it with ES2015 Promise
 mongoose.Promise = global.Promise;
